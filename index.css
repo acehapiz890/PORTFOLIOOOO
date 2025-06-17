@@ -134,3 +134,44 @@ span {
   filter: drop-shadow(5px 5px 5px black);
   margin-left: 30px;
 }
+
+.minimize {
+  width: 300px;
+}
+
+nav div a {
+  text-decoration: none;
+  color: white;
+}
+
+#certificate {
+  margin-bottom: 100px;
+}
+
+.back {
+  margin-right: 50px;
+}
+
+#projects-header {
+  margin-right: 40px;
+}
+
+@media (max-width: 810px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .about-content {
+    transform: translate(-30px, -80px);
+    max-width: 300px;
+  }
+
+  .grid-text {
+    margin-bottom: 50px;
+    transform: translate(-225px, -80px);
+  }
+
+  .navtext {
+    font-size: 9px;
+  }
+}
