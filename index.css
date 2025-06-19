@@ -25,7 +25,7 @@ LIGHT COLOR:#e7f5ff
 }
 
 body {
-  background-color: #74c0fc;
+  background-color: #e7f5ff;
 }
 
 .navbar {
@@ -86,7 +86,7 @@ body {
   font-size: 35px;
   color: #e7f5ff;
   font-weight: bold;
-  filter: drop-shadow(5px 5px 5px #1864ab);
+  filter: drop-shadow(3px 3px 3px #114c83);
   display: inline-block;
 }
 
@@ -281,18 +281,17 @@ button {
   font-size: 20px;
   border-radius: 100px;
   border: 2px solid #1c7ed6;
-  background-color: #ffd43b;
+  background-color: #1c7ed6;
   font-weight: bold;
-  color: #1864ab;
+  color: #e7f5ff;
   transform: translate(-335px, 470px);
   transition-duration: 0.2s;
 }
 
 .direct-message-button:hover {
-  background-color: #1c7ed6;
-  color: #e7f5ff;
+  background-color: #e7f5ff;
+  color: #1c7ed6;
 }
-
 .icon {
   height: 24px;
   width: 24px;
