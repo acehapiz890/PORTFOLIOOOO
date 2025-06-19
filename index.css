@@ -287,7 +287,6 @@ button {
   transform: translate(-335px, 470px);
   transition-duration: 0.2s;
 }
-
 .direct-message-button:hover {
   background-color: #e7f5ff;
   color: #1c7ed6;
