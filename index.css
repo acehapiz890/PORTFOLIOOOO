@@ -137,6 +137,7 @@ span {
   transition-duration: 0.5s;
   opacity: 100%;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .project:hover {
@@ -271,8 +272,17 @@ button {
   position: absolute;
   border-radius: 50%;
   display: flex;
+  box-shadow: 0 5px 20px rgba(0, 0, 0.2);
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  display: none;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
 }
 
 .direct-message-button {
@@ -298,10 +308,14 @@ button {
 
 .button1 {
   left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .button2 {
   right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
 }
 
 /* carousel codes */
@@ -312,11 +326,12 @@ button {
   border-radius: 10px;
   padding: 32px;
   padding-left: 86px;
-  color: #fff;
+  color: #9b5103;
   display: flex;
   align-items: center;
   gap: 86px;
   position: relative;
+  padding-right: 48px;
 }
 
 .mypic2 {
@@ -333,6 +348,32 @@ button {
   line-height: 1.5;
   margin-bottom: 32px;
   color: #391e01;
+}
+
+/*pagination*/
+
+.pagination {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: flex;
+  gap: 8px;
+  transform: translate(50%, 32px);
+  display: none;
+}
+
+.page {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #e7f5ff;
+  border: 2px solid #9b5103;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.page:hover {
+  background-color: #9b5103;
 }
 
 @media (max-width: 810px) {
