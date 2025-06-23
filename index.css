@@ -20,12 +20,20 @@ LIGHT COLOR:#e7f5ff
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Rubik, Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
+}
+
+.center-container {
+  margin: 0 auto;
 }
 
 body {
   background-color: #e7f5ff;
+  background-image: url(./bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 .navbar {
@@ -34,6 +42,7 @@ body {
   border-bottom: 5px solid #1864ab;
   margin-bottom: 25px;
   padding: 15px;
+  .center-container;
 }
 .nav-items {
   display: flex;
@@ -372,12 +381,13 @@ button:hover {
 .page:hover {
   background-color: #9b5103;
 }
+
 /* footer codes */
 
 .footer-container1 {
   display: grid;
   grid-template-columns: 50% 20% 30%;
-  background-color: rgb(122, 122, 255);
+  background-color: #1c7ed6;
   border-top: 4px solid rgb(70, 70, 147);
 }
 
@@ -437,7 +447,7 @@ button:hover {
 }
 
 .copyright {
-  font-size: 10px;
+  font-size: 14px;
   margin-left: 10px;
   margin-top: 40px;
 }
